@@ -1,6 +1,5 @@
 {
   "docs": {
-    "Introduction": ["intro"],
-    "Components": ["components"]
+    "Introduction": ["intro", "components"]
   }
 }
