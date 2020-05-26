@@ -4,6 +4,7 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
+ const path = require('path');
 
 // See https://docusaurus.io/docs/site-config for all the possible
 // site configuration options.
@@ -21,6 +22,7 @@ const users = [
 ];
 
 const siteConfig = {
+  customDocsPath: path.basename(__dirname) + '/docs',
   title: 'Test Site', // Title for your website.
   tagline: 'A website for testing',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
