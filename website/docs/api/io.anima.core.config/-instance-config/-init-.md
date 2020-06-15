@@ -1,0 +1,5 @@
+[anima](../../index.md) / [io.anima.core.config](../index.md) / [InstanceConfig](index.md) / [&lt;init&gt;](./-init-.md)
+
+# &lt;init&gt;
+
+`InstanceConfig(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, host: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, env: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?, hives: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`HiveConnectionInfo`](../-hive-connection-info/index.md)`>, web: `[`WebConfig`](../-web-config/index.md)` = WebConfig(), modules: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`ModuleConfig`](../-module-config/index.md)`> = listOf(), passive: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)` = false)`
