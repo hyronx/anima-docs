@@ -8,7 +8,8 @@ sidebar_label: Introduction
 
 Anima is a network of connected graph databases called Minds. Its purpose is to store the *complete
 human knowledge* to this point of time and expand it with logical operations working with the connections
-between data.
+between data. In other words our goal is to make the [vision](https://www.w3.org/Consortium/mission.html#vision) 
+of a real World Wide Web of knowledge reality.
 
 We differentiate knowledge into two types: The mathematically correct and the arguable. Based on the 
 mathematically correct knowledge we can search for unrecognized, implicit relations in our data sets.
@@ -26,8 +27,19 @@ has links to other related information. You can even dig deeper to the underlyin
 explore every bit of data which will be all data humanity has about that specific topic.
 
 Based on the data centric organisation information gathering gets a lot easier for machines.
-Need to collect every known gene of humans and reptiles for comparison? No problem.
-Need to collect all physical laws relevant for dropping an apple? No problem, do you also want to
+Here are some examples of questions you cannot easily get answered in the current world of the complicated, 
+unstructured Internet:
+
+* Need to collect every known gene of humans and reptiles for comparison? 
+
+No problem.
+
+* Need to collect all physical laws relevant for dropping an apple? 
+
+No problem, do you also want to
 know why they must be true? Or do you like to have a simulation generated for this specific problem?
-Need to collect all U.S. presidents and where they were born? No problem, here is the map with timeline
+
+* Need to collect all U.S. presidents and where they were born? 
+
+No problem, here is the map with a timeline
 plus each place they have been. 
