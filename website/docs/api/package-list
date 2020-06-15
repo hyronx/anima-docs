@@ -1,0 +1,59 @@
+$dokka.format:gfm
+$dokka.linkExtension:md
+$dokka.location:io.anima$mapAsync(kotlin.collections.Iterable((io.anima.mapAsync.T)), kotlin.Function1((io.anima.mapAsync.T, io.anima.mapAsync.S)))io.anima/kotlin.collections.-iterable/map-async.md
+$dokka.location:io.anima$mapAsync(kotlin.collections.Iterable((io.anima.mapAsync.T)), kotlin.Function2((io.anima.mapAsync.T, io.vertx.core.Promise((io.anima.mapAsync.S)), kotlin.Unit)))io.anima/kotlin.collections.-iterable/map-async.md
+$dokka.location:io.anima$onAllComplete(kotlin.collections.Iterable((io.vertx.core.Future((io.anima.onAllComplete.T)))), kotlin.Function1((io.vertx.core.AsyncResult((io.vertx.core.CompositeFuture)), kotlin.Unit)))io.anima/kotlin.collections.-iterable/on-all-complete.md
+$dokka.location:io.anima$onAllCompleteAndIgnoreResult(kotlin.collections.Iterable((io.vertx.core.Future((io.anima.onAllCompleteAndIgnoreResult.T)))), kotlin.Function1((io.vertx.core.AsyncResult((java.lang.Void)), kotlin.Unit)))io.anima/kotlin.collections.-iterable/on-all-complete-and-ignore-result.md
+$dokka.location:io.anima$publish(io.vertx.core.eventbus.EventBus, io.anima.Address, kotlin.Any)io.anima/io.vertx.core.eventbus.-event-bus/publish.md
+$dokka.location:io.anima$publish(io.vertx.core.eventbus.EventBus, io.anima.Address, kotlin.Any, io.vertx.core.eventbus.DeliveryOptions)io.anima/io.vertx.core.eventbus.-event-bus/publish.md
+$dokka.location:io.anima$syncPromise(io.vertx.core.Promise((io.anima.syncPromise.T)), io.vertx.core.AsyncResult((io.anima.syncPromise.T)))io.anima/io.vertx.core.-promise/sync-promise.md
+$dokka.location:io.anima$times(kotlin.collections.Set((io.anima.times.T)), kotlin.collections.Set((io.anima.times.U)))io.anima/kotlin.collections.-set/times.md
+$dokka.location:io.anima$toCompositeFuture(kotlin.collections.Iterable((io.vertx.core.Future((io.anima.toCompositeFuture.T)))))io.anima/kotlin.collections.-iterable/to-composite-future.md
+$dokka.location:io.anima$toJsonArray(kotlin.collections.Iterable((kotlin.Any)), kotlin.Function1((kotlin.Any, io.vertx.core.json.JsonObject)))io.anima/kotlin.collections.-iterable/to-json-array.md
+$dokka.location:io.anima$toJsonObject(kotlin.collections.Map((kotlin.Any, )), kotlin.Function1((kotlin.Any, io.vertx.core.json.JsonObject)))io.anima/kotlin.collections.-map/to-json-object.md
+$dokka.location:io.anima.config$toDrawIoConfig(io.vertx.core.json.JsonObject)io.anima.config/io.vertx.core.json.-json-object/to-draw-io-config.md
+$dokka.location:io.anima.config$toRedisConfig(io.vertx.core.json.JsonObject)io.anima.config/io.vertx.core.json.-json-object/to-redis-config.md
+$dokka.location:io.anima.config$toRulesConfig(io.vertx.core.json.JsonObject)io.anima.config/io.vertx.core.json.-json-object/to-rules-config.md
+$dokka.location:io.anima.core.config$toDataConfig(io.vertx.core.json.JsonObject)io.anima.core.config/io.vertx.core.json.-json-object/to-data-config.md
+$dokka.location:io.anima.core.config$toGraphStoreConfig(io.vertx.core.json.JsonObject)io.anima.core.config/io.vertx.core.json.-json-object/to-graph-store-config.md
+$dokka.location:io.anima.core.config$toGremlinConfig(io.vertx.core.json.JsonObject)io.anima.core.config/io.vertx.core.json.-json-object/to-gremlin-config.md
+$dokka.location:io.anima.core.config$toHiveConnectionInfo(io.vertx.core.json.JsonObject)io.anima.core.config/io.vertx.core.json.-json-object/to-hive-connection-info.md
+$dokka.location:io.anima.core.config$toInstanceConfig(io.vertx.core.json.JsonObject)io.anima.core.config/io.vertx.core.json.-json-object/to-instance-config.md
+$dokka.location:io.anima.core.config$toMindConfig(io.vertx.core.json.JsonObject)io.anima.core.config/io.vertx.core.json.-json-object/to-mind-config.md
+$dokka.location:io.anima.core.config$toModuleConfig(io.vertx.core.json.JsonObject)io.anima.core.config/io.vertx.core.json.-json-object/to-module-config.md
+$dokka.location:io.anima.core.config$toWebApiConfig(io.vertx.core.json.JsonObject)io.anima.core.config/io.vertx.core.json.-json-object/to-web-api-config.md
+$dokka.location:io.anima.core.config$toWebConfig(io.vertx.core.json.JsonObject)io.anima.core.config/io.vertx.core.json.-json-object/to-web-config.md
+$dokka.location:io.anima.core.mind.gremlin$createTimestampMetaData(org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversalSource, org.apache.tinkerpop.gremlin.structure.Vertex, kotlin.Long)io.anima.core.mind.gremlin/org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.-graph-traversal-source/create-timestamp-meta-data.md
+$dokka.location:io.anima.core.mind.gremlin$edgesOfVertices#kotlin.collections.Map((kotlin.String, org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerVertex))io.anima.core.mind.gremlin/kotlin.collections.-map/edges-of-vertices.md
+$dokka.location:io.anima.core.mind.gremlin$getOrCreateVertex(org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversalSource, kotlin.Any, kotlin.String)io.anima.core.mind.gremlin/org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.-graph-traversal-source/get-or-create-vertex.md
+$dokka.location:io.anima.core.mind.gremlin$toAnimaTinkerEdge(io.vertx.core.json.JsonObject)io.anima.core.mind.gremlin/io.vertx.core.json.-json-object/to-anima-tinker-edge.md
+$dokka.location:io.anima.core.mind.gremlin$toAnimaTinkerElement(io.vertx.core.json.JsonObject)io.anima.core.mind.gremlin/io.vertx.core.json.-json-object/to-anima-tinker-element.md
+$dokka.location:io.anima.core.mind.gremlin$toAnimaTinkerVertex(io.vertx.core.json.JsonObject)io.anima.core.mind.gremlin/io.vertx.core.json.-json-object/to-anima-tinker-vertex.md
+$dokka.location:io.anima.core.mind.gremlin$toJsonObject(org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerElement)io.anima.core.mind.gremlin/org.apache.tinkerpop.gremlin.tinkergraph.structure.-tinker-element/to-json-object.md
+$dokka.location:io.anima.core.mind.gremlin$toSparqlQuestion(kotlin.String)io.anima.core.mind.gremlin/kotlin.-string/to-sparql-question.md
+$dokka.location:io.anima.core.transform$toAnswersCapsule(io.vertx.core.json.JsonObject)io.anima.core.transform/io.vertx.core.json.-json-object/to-answers-capsule.md
+$dokka.location:io.anima.graph$mergeAll(kotlin.collections.Iterable((io.anima.graph.Graph)))io.anima.graph/kotlin.collections.-iterable/merge-all.md
+$dokka.location:io.anima.graph$mergeAll(kotlin.collections.Iterable((kotlin.collections.Map((java.io.Serializable, kotlin.collections.Set((kotlin.Pair((, )))))))))io.anima.graph/kotlin.collections.-iterable/merge-all.md
+$dokka.location:io.anima.messages$toAnswerMessage(io.vertx.core.json.JsonObject)io.anima.messages/io.vertx.core.json.-json-object/to-answer-message.md
+$dokka.location:io.anima.messages$toCacheResponse(io.vertx.core.json.JsonObject)io.anima.messages/io.vertx.core.json.-json-object/to-cache-response.md
+$dokka.location:io.anima.messages$toQuestionMessage(io.vertx.core.json.JsonObject)io.anima.messages/io.vertx.core.json.-json-object/to-question-message.md
+io.anima
+io.anima.cache
+io.anima.config
+io.anima.core
+io.anima.core.cache
+io.anima.core.config
+io.anima.core.hive
+io.anima.core.mind
+io.anima.core.mind.gremlin
+io.anima.core.store
+io.anima.core.transform
+io.anima.core.web
+io.anima.core.web.routes
+io.anima.graph
+io.anima.identity
+io.anima.messages
+io.anima.owl
+io.anima.rules
+io.anima.transform
+io.anima.transform.drawio

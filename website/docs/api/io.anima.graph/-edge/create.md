@@ -1,0 +1,6 @@
+[anima](../../index.md) / [io.anima.graph](../index.md) / [Edge](index.md) / [create](./create.md)
+
+# create
+
+`fun <T, V> create(data: T, outVertex: `[`Vertex`](../-vertex/index.md)`<V>, metaEdges: `[`Set`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html)`<`[`Edge`](index.md)`<*, *>>): `[`Edge`](index.md)`<T, V> where T : `[`Comparable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-comparable/index.html)`<T>, T : `[`Serializable`](https://docs.oracle.com/javase/6/docs/api/java/io/Serializable.html)`, V : `[`Comparable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-comparable/index.html)`<V>, V : `[`Serializable`](https://docs.oracle.com/javase/6/docs/api/java/io/Serializable.html)
+`fun <T, V> create(data: T, outVertex: `[`Vertex`](../-vertex/index.md)`<V>, vararg metaEdges: `[`Edge`](index.md)`<*, *>): `[`Edge`](index.md)`<T, V> where T : `[`Comparable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-comparable/index.html)`<T>, T : `[`Serializable`](https://docs.oracle.com/javase/6/docs/api/java/io/Serializable.html)`, V : `[`Comparable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-comparable/index.html)`<V>, V : `[`Serializable`](https://docs.oracle.com/javase/6/docs/api/java/io/Serializable.html)
