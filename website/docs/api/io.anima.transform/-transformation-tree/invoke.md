@@ -8,7 +8,7 @@ Calls the transform tree
 
 ### Parameters
 
-`inputs` - The set of input data
+`inputs` - The set of input transform
 
 **Return**
 The promised result set

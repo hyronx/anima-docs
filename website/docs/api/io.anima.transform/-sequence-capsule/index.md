@@ -27,4 +27,4 @@
 
 | Name | Summary |
 |---|---|
-| [SequenceAnswersCapsule](../../io.anima.core.transform/-sequence-answers-capsule/index.md) | `data class SequenceAnswersCapsule : `[`SequenceCapsule`](./index.md)`<`[`AnswersCapsule`](../../io.anima.core.transform/-answers-capsule/index.md)`>` |
+| [SequenceAnswersCapsule](../../io.anima.messages/-sequence-answers-capsule/index.md) | `data class SequenceAnswersCapsule : `[`SequenceCapsule`](./index.md)`<`[`AnswersCapsule`](../../io.anima.messages/-answers-capsule/index.md)`>` |

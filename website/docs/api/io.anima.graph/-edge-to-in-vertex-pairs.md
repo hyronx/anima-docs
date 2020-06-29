@@ -2,4 +2,4 @@
 
 # EdgeToInVertexPairs
 
-`typealias EdgeToInVertexPairs = `[`Set`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html)`<`[`Pair`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html)`<`[`Serializable`](https://docs.oracle.com/javase/6/docs/api/java/io/Serializable.html)`, `[`Serializable`](https://docs.oracle.com/javase/6/docs/api/java/io/Serializable.html)`>>`
+`typealias EdgeToInVertexPairs = `[`Set`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html)`<`[`Pair`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html)`<`[`Edge`](-edge/index.md)`, `[`Vertex`](-vertex/index.md)`>>`

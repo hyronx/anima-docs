@@ -14,15 +14,15 @@
 
 | Name | Summary |
 |---|---|
+| [hasMeta](has-meta.md) | `val hasMeta: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 | [isValid](is-valid.md) | `val isValid: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
-| [metaGraph](meta-graph.md) | `val metaGraph: `[`GraphMap`](../-graph-map.md) |
 | [rules](rules.md) | `var rules: `[`Set`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html)`<`[`Rule`](../-rule/index.md)`>` |
 
 ### Functions
 
 | Name | Summary |
 |---|---|
-| [clone](clone.md) | `fun clone(graph: `[`GraphMap`](../-graph-map.md)` = this.graph.toMap(), metaGraph: `[`GraphMap`](../-graph-map.md)` = this.metaGraph.toMap(), rules: `[`Set`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html)`<`[`Rule`](../-rule/index.md)`> = this.rules.toSet(), isValid: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)` = this.isValid): `[`Graph`](./index.md) |
+| [clone](clone.md) | `fun clone(graph: `[`GraphMap`](../-graph-map.md)` = this.toMap(), rules: `[`Set`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html)`<`[`Rule`](../-rule/index.md)`> = this.rules.toSet(), isValid: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)` = this.isValid): `[`Graph`](./index.md) |
 | [toJsonObject](to-json-object.md) | Returns the representation of a JSON serializable object in JSON.`fun toJsonObject(): JsonObject` |
 | [toString](to-string.md) | `fun toString(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 
@@ -36,6 +36,6 @@
 
 | Name | Summary |
 |---|---|
-| [collectOutVertices](../collect-out-vertices.md) | `fun <T : `[`Serializable`](https://docs.oracle.com/javase/6/docs/api/java/io/Serializable.html)`> `[`Graph`](./index.md)`.collectOutVertices(vertex: T): `[`Set`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html)`<`[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`>?` |
+| [collectOutVertices](../collect-out-vertices.md) | `fun <T : `[`Serializable`](https://docs.oracle.com/javase/6/docs/api/java/io/Serializable.html)`> `[`Graph`](./index.md)`.collectOutVertices(vertexValue: T): `[`Set`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html)`<`[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`>?` |
 | [correct](../correct.md) | Corrects this graph based on its rules in [Graph.rules](rules.md).`fun `[`Graph`](./index.md)`.correct(): `[`Graph`](./index.md) |
 | [mergeAll](../merge-all.md) | `fun `[`Graph`](./index.md)`.mergeAll(others: `[`Iterable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html)`<`[`Graph`](./index.md)`>): `[`Graph`](./index.md) |

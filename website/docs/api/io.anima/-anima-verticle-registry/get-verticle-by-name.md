@@ -2,4 +2,4 @@
 
 # getVerticleByName
 
-`fun <reified T : `[`AnimaVerticle`](../-anima-verticle/index.md)`> getVerticleByName(verticleName: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): T?`
+`@Synchronized fun <reified T : `[`AnimaVerticle`](../-anima-verticle/index.md)`> getVerticleByName(verticleName: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): T?`

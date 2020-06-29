@@ -2,7 +2,7 @@
 
 # RedisVerticle
 
-`class RedisVerticle : `[`AnimaVerticle`](../-anima-verticle/index.md)
+`class RedisVerticle : `[`ModuleVerticle`](../-module-verticle/index.md)
 
 ### Constructors
 
@@ -10,12 +10,17 @@
 |---|---|
 | [&lt;init&gt;](-init-.md) | `RedisVerticle()` |
 
+### Properties
+
+| Name | Summary |
+|---|---|
+| [childVerticles](child-verticles.md) | `val childVerticles: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`RedisCacheVerticle`](../../io.anima.cache/-redis-cache-verticle/index.md)`>` |
+
 ### Functions
 
 | Name | Summary |
 |---|---|
-| [processConfig](process-config.md) | Processes and customizes the full top level configuration object for the [start](../-anima-verticle/start.md) method.`fun processConfig(fullConfig: JsonObject): JsonObject!` |
-| [start](start.md) | Configures and sets up this verticle.`fun start(startPromise: Promise<`[`Void`](https://docs.oracle.com/javase/6/docs/api/java/lang/Void.html)`>, currentConfig: JsonObject): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [processConfig](process-config.md) | Processes and customizes the full top level configuration object for the [start](../-anima-verticle/start.md) method.`fun processConfig(fullConfig: JsonObject): JsonObject` |
 
 ### Extension Functions
 

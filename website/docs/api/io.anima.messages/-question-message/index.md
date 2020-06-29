@@ -29,5 +29,6 @@
 
 | Name | Summary |
 |---|---|
+| [CypherQuestion](../-cypher-question/index.md) | `class CypherQuestion : `[`QuestionMessage`](./index.md) |
 | [GremlinQuestion](../-gremlin-question/index.md) | `class GremlinQuestion : `[`QuestionMessage`](./index.md) |
 | [SparqlQuestion](../-sparql-question/index.md) | `class SparqlQuestion : `[`QuestionMessage`](./index.md) |

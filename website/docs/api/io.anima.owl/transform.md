@@ -2,7 +2,7 @@
 
 # transform
 
-`fun transform(lang: Lang, logger: Logger, input: `[`RdfInput`](-rdf-input/index.md)`, outputPromise: Promise<`[`RdfGraph`](-rdf-graph/index.md)`>): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)
+`fun transform(lang: Lang, logger: Logger, input: `[`RdfInput`](-rdf-input.md)`, outputPromise: Promise<`[`RdfGraph`](-rdf-graph/index.md)`>): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)
 
 Transforms the RDF input to a RDF graph.
 

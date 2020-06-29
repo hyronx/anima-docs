@@ -1,6 +1,6 @@
 {
   "docs": {
-    "Introduction": ["intro", "components"],
-    "Technical Information": ["graph", "api/api"]
+    "Introduction": ["intro", "components", "knowledge", "consensus", "identities"],
+    "Technical Information": ["config", "graph", "api/api"]
   }
 }

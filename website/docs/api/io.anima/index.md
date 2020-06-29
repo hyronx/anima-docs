@@ -17,8 +17,7 @@
 | [JsonObjectSerializable](-json-object-serializable/index.md) | Represents a JSON serializable object`interface JsonObjectSerializable` |
 | [MessagePackCodec](-message-pack-codec/index.md) | `class MessagePackCodec<R : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : MessageCodec<R, R>` |
 | [ModuleVerticle](-module-verticle/index.md) | `abstract class ModuleVerticle : `[`AnimaVerticle`](-anima-verticle/index.md) |
-| [RedisVerticle](-redis-verticle/index.md) | `class RedisVerticle : `[`AnimaVerticle`](-anima-verticle/index.md) |
-| [RuleLoaderVerticle](-rule-loader-verticle/index.md) | `class RuleLoaderVerticle : `[`TransformationVerticle`](../io.anima.transform/-transformation-verticle/index.md)`<`[`AnimaGraphCapsule`](../io.anima.transform/-anima-graph-capsule/index.md)`, `[`ExtendedAnimaGraphCapsule`](../io.anima.transform/-extended-anima-graph-capsule/index.md)`>` |
+| [RedisVerticle](-redis-verticle/index.md) | `class RedisVerticle : `[`ModuleVerticle`](-module-verticle/index.md) |
 | [RulesVerticle](-rules-verticle/index.md) | `class RulesVerticle : `[`AnimaVerticle`](-anima-verticle/index.md) |
 | [ServiceType](-service-type/index.md) | `sealed class ServiceType : `[`AnimaRessourceIdentifier`](-anima-ressource-identifier/index.md) |
 | [VerticleState](-verticle-state/index.md) | `enum class VerticleState` |

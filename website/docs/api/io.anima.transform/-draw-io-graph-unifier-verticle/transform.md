@@ -7,6 +7,8 @@
 Transforms the input to some output.
 
 This method must be implemented as a pure function.
+This method only gets [DEFAULT_TIMEOUT](../-transformation/-d-e-f-a-u-l-t_-t-i-m-e-o-u-t.md) milliseconds for completion.
+If you need more, you can disable the timeout by overriding [enableTimeout](../-transformation/enable-timeout.md).
 
 ### Parameters
 

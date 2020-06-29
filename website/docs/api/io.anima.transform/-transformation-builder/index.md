@@ -8,14 +8,15 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `TransformationBuilder(trafoName: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`)` |
+| [&lt;init&gt;](-init-.md) | `TransformationBuilder(trafoName: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, inputType: `[`Class`](https://docs.oracle.com/javase/6/docs/api/java/lang/Class.html)`<A>, outputType: `[`Class`](https://docs.oracle.com/javase/6/docs/api/java/lang/Class.html)`<B>, enableTimeout: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)` = true)` |
 
 ### Properties
 
 | Name | Summary |
 |---|---|
-| [inputType](input-type.md) | `var inputType: `[`Class`](https://docs.oracle.com/javase/6/docs/api/java/lang/Class.html)`<A>?` |
-| [outputType](output-type.md) | `var outputType: `[`Class`](https://docs.oracle.com/javase/6/docs/api/java/lang/Class.html)`<B>?` |
+| [enableTimeout](enable-timeout.md) | `var enableTimeout: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
+| [inputType](input-type.md) | `var inputType: `[`Class`](https://docs.oracle.com/javase/6/docs/api/java/lang/Class.html)`<A>` |
+| [outputType](output-type.md) | `var outputType: `[`Class`](https://docs.oracle.com/javase/6/docs/api/java/lang/Class.html)`<B>` |
 
 ### Functions
 

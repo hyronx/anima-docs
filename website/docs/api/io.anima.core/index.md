@@ -11,7 +11,6 @@
 | [HiveClientVerticle](-hive-client-verticle/index.md) | `class HiveClientVerticle : `[`AnimaVerticle`](../io.anima/-anima-verticle/index.md) |
 | [HiveConnectionVerticle](-hive-connection-verticle/index.md) | Establishes and manages a connection to one Hive.`class HiveConnectionVerticle : `[`BasicAnimaVerticle`](../io.anima/-basic-anima-verticle/index.md) |
 | [MainVerticle](-main-verticle/index.md) | `class MainVerticle : `[`BasicAnimaVerticle`](../io.anima/-basic-anima-verticle/index.md) |
-| [QuestionToTransformationVerticle](-question-to-transformation-verticle/index.md) | Receives questions messages and transforms them to answers using the transformation system.`class QuestionToTransformationVerticle : `[`AnimaVerticle`](../io.anima/-anima-verticle/index.md) |
 
 ### Functions
 

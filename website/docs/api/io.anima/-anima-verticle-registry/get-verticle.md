@@ -2,4 +2,4 @@
 
 # getVerticle
 
-`fun getVerticle(verticle: `[`AnimaVerticle`](../-anima-verticle/index.md)`): `[`VerticleWithState`](../-verticle-with-state/index.md)`?`
+`@Synchronized fun getVerticle(verticle: `[`AnimaVerticle`](../-anima-verticle/index.md)`): `[`VerticleWithState`](../-verticle-with-state/index.md)`?`

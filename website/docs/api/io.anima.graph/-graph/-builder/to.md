@@ -2,4 +2,4 @@
 
 # to
 
-`infix fun <S : `[`Serializable`](https://docs.oracle.com/javase/6/docs/api/java/io/Serializable.html)`, R : `[`Serializable`](https://docs.oracle.com/javase/6/docs/api/java/io/Serializable.html)`, U : `[`Serializable`](https://docs.oracle.com/javase/6/docs/api/java/io/Serializable.html)`> VertexWithEdge<S, R>.to(vertex: U): S`
+`infix fun <S : `[`Serializable`](https://docs.oracle.com/javase/6/docs/api/java/io/Serializable.html)`, R : `[`Serializable`](https://docs.oracle.com/javase/6/docs/api/java/io/Serializable.html)`, U : `[`Serializable`](https://docs.oracle.com/javase/6/docs/api/java/io/Serializable.html)`> VertexWithEdge<S, R>.to(vertex: U): Triple<S, R, U>`

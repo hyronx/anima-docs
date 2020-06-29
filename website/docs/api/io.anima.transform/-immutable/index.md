@@ -37,16 +37,16 @@ conditions.
 |---|---|
 | [AnimaGraphCapsule](../-anima-graph-capsule/index.md) | `data class AnimaGraphCapsule : `[`Immutable`](./index.md) |
 | [AnimaRessourceIdentifier](../../io.anima/-anima-ressource-identifier/index.md) | `open class AnimaRessourceIdentifier : `[`Immutable`](./index.md) |
-| [AnswersCapsule](../../io.anima.core.transform/-answers-capsule/index.md) | `data class AnswersCapsule : `[`Immutable`](./index.md) |
+| [AnnouncementInfo](../../io.anima.web/-announcement-info/index.md) | `data class AnnouncementInfo : `[`Immutable`](./index.md) |
+| [AnswersCapsule](../../io.anima.messages/-answers-capsule/index.md) | `data class AnswersCapsule : `[`Immutable`](./index.md) |
 | [DrawIoGraphCapsule](../-draw-io-graph-capsule/index.md) | `data class DrawIoGraphCapsule : `[`Immutable`](./index.md) |
-| [DrawIoInput](../-draw-io-input/index.md) | `data class DrawIoInput : `[`Immutable`](./index.md) |
+| [Element](../../io.anima.graph/-element/index.md) | `sealed class Element : `[`Immutable`](./index.md) |
+| [EventState](../../io.anima.web/-event-state/index.md) | `interface EventState : `[`Immutable`](./index.md) |
 | [ExtendedAnimaGraphCapsule](../-extended-anima-graph-capsule/index.md) | `data class ExtendedAnimaGraphCapsule : `[`Immutable`](./index.md) |
-| [GraphStoreCapsule](../../io.anima.core.transform/-graph-store-capsule/index.md) | `data class GraphStoreCapsule : `[`Immutable`](./index.md) |
-| [GraphStoreRead](../../io.anima.core.transform/-graph-store-read.md) | `object GraphStoreRead : `[`Immutable`](./index.md) |
-| [QuestionCapsule](../../io.anima.core.transform/-question-capsule/index.md) | `abstract class QuestionCapsule : `[`Immutable`](./index.md) |
-| [QuestionMessageCapsule](../../io.anima.core.transform/-question-message-capsule/index.md) | `data class QuestionMessageCapsule : `[`Immutable`](./index.md) |
+| [QuestionCapsule](../../io.anima.messages/-question-capsule/index.md) | `abstract class QuestionCapsule : `[`Immutable`](./index.md) |
+| [QuestionMessageCapsule](../../io.anima.messages/-question-message-capsule/index.md) | `data class QuestionMessageCapsule : `[`Immutable`](./index.md) |
 | [RdfGraph](../../io.anima.owl/-rdf-graph/index.md) | `data class RdfGraph : `[`Immutable`](./index.md) |
-| [RdfInput](../../io.anima.owl/-rdf-input/index.md) | `sealed class RdfInput : `[`Immutable`](./index.md) |
 | [ResultsCapsule](../-results-capsule/index.md) | `data class ResultsCapsule<T : `[`Immutable`](./index.md)`> : `[`Immutable`](./index.md) |
 | [SequenceCapsule](../-sequence-capsule/index.md) | `abstract class SequenceCapsule<T : `[`Immutable`](./index.md)`> : `[`Immutable`](./index.md) |
 | [StreamingCapsule](../-streaming-capsule/index.md) | `abstract class StreamingCapsule<T : `[`Immutable`](./index.md)`> : `[`Immutable`](./index.md) |
+| [WebInput](../../io.anima.web/-web-input/index.md) | `abstract class WebInput : `[`Immutable`](./index.md) |

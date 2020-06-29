@@ -2,4 +2,4 @@
 
 # stateHandler
 
-`fun stateHandler(handler: `[`VerticleStateHandler`](../-verticle-state-handler.md)`): `[`VerticleStateHandler`](../-verticle-state-handler.md)
+`@Synchronized fun stateHandler(handler: `[`VerticleStateHandler`](../-verticle-state-handler.md)`): `[`VerticleStateHandler`](../-verticle-state-handler.md)

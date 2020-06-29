@@ -2,7 +2,7 @@
 
 # GraphMap
 
-`typealias GraphMap = `[`Map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)`<`[`Serializable`](https://docs.oracle.com/javase/6/docs/api/java/io/Serializable.html)`, `[`EdgeToInVertexPairs`](-edge-to-in-vertex-pairs.md)`>`
+`typealias GraphMap = `[`Map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)`<`[`Vertex`](-vertex/index.md)`, `[`EdgeToInVertexPairs`](-edge-to-in-vertex-pairs.md)`>`
 
 ### Inheritors
 

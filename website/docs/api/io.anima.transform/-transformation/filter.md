@@ -15,5 +15,5 @@ the whole transformation process.
 `input` - The input to filter
 
 **Return**
-True if [transform](transform.md) should be applied otherwise false
+True if [invoke](invoke.md) should be applied otherwise false
 

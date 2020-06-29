@@ -33,7 +33,7 @@ You doesn't usually instantiate this class directly. It is created by [].
 | Name | Summary |
 |---|---|
 | [callChildren](call-children.md) | `fun callChildren(input: `[`Set`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html)`<D>, promise: Promise<`[`Set`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html)`<*>>): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
-| [freeze](freeze.md) | Recursively freezes the whole tree`fun freeze(): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [freeze](freeze.md) | Recursively freezes the whole tree`open fun freeze(): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 | [handler](handler.md) | Calls its transform elements and the next element in the chain`abstract fun handler(input: `[`Set`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html)`<C>): Future<`[`Set`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html)`<*>>` |
 
 ### Inheritors
