@@ -31,9 +31,3 @@
 | Name | Summary |
 |---|---|
 | [TYPE](-t-y-p-e.md) | `const val TYPE: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [encapsulate](../../io.anima.core.mind.gremlin/encapsulate.md) | `fun `[`SparqlQuestion`](./index.md)`.encapsulate(): `[`QuestionMessageCapsule`](../../io.anima.core.transform/-question-message-capsule/index.md) |

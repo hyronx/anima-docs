@@ -26,6 +26,7 @@
 
 | Name | Summary |
 |---|---|
+| [FinalAnswer](../-final-answer/index.md) | `data class FinalAnswer : `[`AnswerMessage`](./index.md) |
 | [GraphAnswer](../-graph-answer/index.md) | `data class GraphAnswer : `[`AnswerMessage`](./index.md) |
 | [GremlinAnswer](../-gremlin-answer/index.md) | `data class GremlinAnswer : `[`AnswerMessage`](./index.md) |
 | [ListAnswer](../-list-answer/index.md) | `data class ListAnswer<T> : `[`AnswerMessage`](./index.md) |

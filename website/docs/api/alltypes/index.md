@@ -6,7 +6,7 @@
 |---|---|
 |
 
-##### [io.anima.core.web.AbstractWebVerticle](../io.anima.core.web/-abstract-web-verticle/index.md)
+##### [io.anima.web.AbstractWebVerticle](../io.anima.web/-abstract-web-verticle/index.md)
 
 
 |
@@ -14,6 +14,11 @@
 ##### [io.anima.Address](../io.anima/-address/index.md)
 
 Defines a event address
+
+
+|
+
+##### [io.anima.rules.AddTimestampRule](../io.anima.rules/-add-timestamp-rule/index.md)
 
 
 |
@@ -28,27 +33,7 @@ Defines a event address
 
 |
 
-##### [io.anima.core.transform.AnimaGraphTimestampExtender](../io.anima.core.transform/-anima-graph-timestamp-extender/index.md)
-
-
-|
-
 ##### [io.anima.AnimaRessourceIdentifier](../io.anima/-anima-ressource-identifier/index.md)
-
-
-|
-
-##### [io.anima.core.mind.gremlin.AnimaTinkerEdge](../io.anima.core.mind.gremlin/-anima-tinker-edge/index.md)
-
-
-|
-
-##### [io.anima.core.mind.gremlin.AnimaTinkerElement](../io.anima.core.mind.gremlin/-anima-tinker-element/index.md)
-
-
-|
-
-##### [io.anima.core.mind.gremlin.AnimaTinkerVertex](../io.anima.core.mind.gremlin/-anima-tinker-vertex/index.md)
 
 
 |
@@ -70,12 +55,22 @@ The verticle base class for any verticle in Anima
 
 |
 
+##### [io.anima.web.AnnouncementInfo](../io.anima.web/-announcement-info/index.md)
+
+
+|
+
 ##### [io.anima.messages.AnswerMessage](../io.anima.messages/-answer-message/index.md)
 
 
 |
 
-##### [io.anima.core.transform.AnswersCapsule](../io.anima.core.transform/-answers-capsule/index.md)
+##### [io.anima.messages.AnswersCapsule](../io.anima.messages/-answers-capsule/index.md)
+
+
+|
+
+##### [io.anima.owl.rules.ApplyRdfTagRule](../io.anima.owl.rules/-apply-rdf-tag-rule/index.md)
 
 
 |
@@ -90,13 +85,6 @@ The verticle base class for any verticle in Anima
 
 |
 
-##### [io.anima.graph.AsyncRule](../io.anima.graph/-async-rule/index.md)
-
-Represents a validation and customization rule for a [Graph](../io.anima.graph/-graph/index.md).
-
-
-|
-
 ##### [io.anima.BasicAnimaVerticle](../io.anima/-basic-anima-verticle/index.md)
 
 A very basic class for internal verticles in Anima only
@@ -104,12 +92,17 @@ A very basic class for internal verticles in Anima only
 
 |
 
-##### [io.anima.cache.Cache](../io.anima.cache/-cache/index.md)
+##### [io.anima.web.BridgeEventConsumer](../io.anima.web/-bridge-event-consumer.md)
 
 
 |
 
-##### [io.anima.core.hive.CacheEntryAri](../io.anima.core.hive/-cache-entry-ari/index.md)
+##### [io.anima.web.BridgeEventHandler](../io.anima.web/-bridge-event-handler.md)
+
+
+|
+
+##### [io.anima.cache.Cache](../io.anima.cache/-cache/index.md)
 
 
 |
@@ -139,12 +132,12 @@ A very basic class for internal verticles in Anima only
 
 |
 
-##### [io.anima.core.config.DataConfig](../io.anima.core.config/-data-config/index.md)
+##### [io.anima.messages.CypherQuestion](../io.anima.messages/-cypher-question/index.md)
 
 
 |
 
-##### [io.anima.core.mind.DataManagerVerticle](../io.anima.core.mind/-data-manager-verticle/index.md)
+##### [io.anima.messages.CypherQuestionCapsule](../io.anima.messages/-cypher-question-capsule/index.md)
 
 
 |
@@ -197,9 +190,19 @@ A very basic class for internal verticles in Anima only
 ##### [io.anima.graph.EdgeToInVertexPairs](../io.anima.graph/-edge-to-in-vertex-pairs.md)
 
 
+|
+
+##### [io.anima.graph.Element](../io.anima.graph/-element/index.md)
+
+
 | (extensions in package io.anima)
 
 ##### [io.vertx.core.eventbus.EventBus](../io.anima/io.vertx.core.eventbus.-event-bus/index.md)
+
+
+|
+
+##### [io.anima.web.EventState](../io.anima.web/-event-state/index.md)
 
 
 |
@@ -210,6 +213,16 @@ A very basic class for internal verticles in Anima only
 |
 
 ##### [io.anima.transform.ExtendedAnimaGraphCapsule](../io.anima.transform/-extended-anima-graph-capsule/index.md)
+
+
+|
+
+##### [io.anima.messages.FinalAnswer](../io.anima.messages/-final-answer/index.md)
+
+
+|
+
+##### [io.anima.web.routes.FrontendRoute](../io.anima.web.routes/-frontend-route/index.md)
 
 
 |
@@ -239,72 +252,7 @@ A very basic class for internal verticles in Anima only
 
 |
 
-##### [io.anima.core.store.GraphStore](../io.anima.core.store/-graph-store/index.md)
-
-A graph representation divided in vertices, edges and triples
-
-
-|
-
-##### [io.anima.core.transform.GraphStoreCapsule](../io.anima.core.transform/-graph-store-capsule/index.md)
-
-
-|
-
-##### [io.anima.core.config.GraphStoreConfig](../io.anima.core.config/-graph-store-config/index.md)
-
-
-|
-
-##### [io.anima.core.transform.GraphStoreRead](../io.anima.core.transform/-graph-store-read.md)
-
-
-|
-
-##### [io.anima.core.store.GraphStoreReadTransformation](../io.anima.core.store/-graph-store-read-transformation/index.md)
-
-Reads the graph store with the defined [storeFormat](#)
-
-
-|
-
-##### [io.anima.core.store.GraphStoreTransformation](../io.anima.core.store/-graph-store-transformation/index.md)
-
-Transforms a graph store to a general Anima graph.
-
-
-|
-
-##### [io.anima.core.store.GraphStoreVerticle](../io.anima.core.store/-graph-store-verticle/index.md)
-
-
-|
-
-##### [io.anima.core.store.GraphStoreWriteTransformation](../io.anima.core.store/-graph-store-write-transformation/index.md)
-
-Writes an [AnimaGraphCapsule](../io.anima.transform/-anima-graph-capsule/index.md) to the graph store with the defined [storeFormat](#)
-
-
-| (extensions in package io.anima.core.mind.gremlin)
-
-##### [org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversalSource](../io.anima.core.mind.gremlin/org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.-graph-traversal-source/index.md)
-
-
-|
-
 ##### [io.anima.messages.GremlinAnswer](../io.anima.messages/-gremlin-answer/index.md)
-
-
-|
-
-##### [io.anima.core.config.GremlinConfig](../io.anima.core.config/-gremlin-config/index.md)
-
-
-|
-
-##### [io.anima.core.transform.GremlinGraphSink](../io.anima.core.transform/-gremlin-graph-sink/index.md)
-
-Stores the input in a local Gremlin database.
 
 
 |
@@ -314,17 +262,12 @@ Stores the input in a local Gremlin database.
 
 |
 
-##### [io.anima.core.mind.GremlinVerticle](../io.anima.core.mind/-gremlin-verticle/index.md)
-
-
-|
-
 ##### [io.anima.core.HiveClientVerticle](../io.anima.core/-hive-client-verticle/index.md)
 
 
 |
 
-##### [io.anima.core.config.HiveConnectionInfo](../io.anima.core.config/-hive-connection-info/index.md)
+##### [io.anima.config.HiveConnectionInfo](../io.anima.config/-hive-connection-info/index.md)
 
 
 |
@@ -336,7 +279,7 @@ Establishes and manages a connection to one Hive.
 
 |
 
-##### [io.anima.core.hive.HiveVerticle](../io.anima.core.hive/-hive-verticle/index.md)
+##### [io.anima.messages.HiveSendMessage](../io.anima.messages/-hive-send-message/index.md)
 
 
 |
@@ -363,12 +306,27 @@ Represents an immutable, serializable and cloneable type.
 
 |
 
-##### [io.anima.core.web.routes.ImportRoute](../io.anima.core.web.routes/-import-route/index.md)
+##### [io.anima.web.IncomingClientEvent](../io.anima.web/-incoming-client-event/index.md)
 
 
 |
 
-##### [io.anima.core.config.InstanceConfig](../io.anima.core.config/-instance-config/index.md)
+##### [io.anima.web.IncomingEvent](../io.anima.web/-incoming-event/index.md)
+
+
+|
+
+##### [io.anima.web.IncomingMindEvent](../io.anima.web/-incoming-mind-event/index.md)
+
+
+|
+
+##### [io.anima.web.IncomingUnknownEvent](../io.anima.web/-incoming-unknown-event/index.md)
+
+
+|
+
+##### [io.anima.config.InstanceConfig](../io.anima.config/-instance-config/index.md)
 
 
 | (extensions in package io.anima)
@@ -386,19 +344,9 @@ Represents an immutable, serializable and cloneable type.
 ##### [io.vertx.core.json.JsonObject](../io.anima.config/io.vertx.core.json.-json-object/index.md)
 
 
-| (extensions in package io.anima.core.config)
+| (extensions in package io.anima.graph)
 
-##### [io.vertx.core.json.JsonObject](../io.anima.core.config/io.vertx.core.json.-json-object/index.md)
-
-
-| (extensions in package io.anima.core.mind.gremlin)
-
-##### [io.vertx.core.json.JsonObject](../io.anima.core.mind.gremlin/io.vertx.core.json.-json-object/index.md)
-
-
-| (extensions in package io.anima.core.transform)
-
-##### [io.vertx.core.json.JsonObject](../io.anima.core.transform/io.vertx.core.json.-json-object/index.md)
+##### [io.vertx.core.json.JsonObject](../io.anima.graph/io.vertx.core.json.-json-object/index.md)
 
 
 | (extensions in package io.anima.messages)
@@ -438,11 +386,6 @@ Represents a JSON serializable object
 ##### [kotlin.collections.Map](../io.anima/kotlin.collections.-map/index.md)
 
 
-| (extensions in package io.anima.core.mind.gremlin)
-
-##### [kotlin.collections.Map](../io.anima.core.mind.gremlin/kotlin.collections.-map/index.md)
-
-
 |
 
 ##### [io.anima.messages.MapAnswer](../io.anima.messages/-map-answer/index.md)
@@ -465,17 +408,7 @@ Represents a JSON serializable object
 
 |
 
-##### [io.anima.core.config.MindConfig](../io.anima.core.config/-mind-config/index.md)
-
-
-|
-
-##### [io.anima.core.mind.MindVerticle](../io.anima.core.mind/-mind-verticle/index.md)
-
-
-|
-
-##### [io.anima.core.config.ModuleConfig](../io.anima.core.config/-module-config/index.md)
+##### [io.anima.config.ModuleConfig](../io.anima.config/-module-config/index.md)
 
 
 |
@@ -500,12 +433,32 @@ Represents a JSON serializable object
 
 |
 
+##### [io.anima.transform.NoParentSetException](../io.anima.transform/-no-parent-set-exception.md)
+
+
+|
+
 ##### [io.anima.transform.NoPathsFoundException](../io.anima.transform/-no-paths-found-exception/index.md)
 
 
 |
 
 ##### [io.anima.transform.NotFrozenException](../io.anima.transform/-not-frozen-exception/index.md)
+
+
+|
+
+##### [io.anima.web.OutgoingClientEvent](../io.anima.web/-outgoing-client-event/index.md)
+
+
+|
+
+##### [io.anima.web.OutgoingEvent](../io.anima.web/-outgoing-event/index.md)
+
+
+|
+
+##### [io.anima.web.OutgoingMindEvent](../io.anima.web/-outgoing-mind-event/index.md)
 
 
 |
@@ -520,7 +473,12 @@ Represents a JSON serializable object
 
 |
 
-##### [io.anima.core.transform.QuestionCapsule](../io.anima.core.transform/-question-capsule/index.md)
+##### [io.anima.graph.Quadruple](../io.anima.graph/-quadruple/index.md)
+
+
+|
+
+##### [io.anima.messages.QuestionCapsule](../io.anima.messages/-question-capsule/index.md)
 
 
 |
@@ -530,14 +488,7 @@ Represents a JSON serializable object
 
 |
 
-##### [io.anima.core.transform.QuestionMessageCapsule](../io.anima.core.transform/-question-message-capsule/index.md)
-
-
-|
-
-##### [io.anima.core.QuestionToTransformationVerticle](../io.anima.core/-question-to-transformation-verticle/index.md)
-
-Receives questions messages and transforms them to answers using the transformation system.
+##### [io.anima.messages.QuestionMessageCapsule](../io.anima.messages/-question-message-capsule/index.md)
 
 
 |
@@ -554,7 +505,7 @@ Transforms a RDF graph to an Anima graph.
 
 |
 
-##### [io.anima.owl.RdfInput](../io.anima.owl/-rdf-input/index.md)
+##### [io.anima.owl.RdfInput](../io.anima.owl/-rdf-input.md)
 
 
 |
@@ -615,11 +566,6 @@ Represents a validation and customization rule for a [Graph](../io.anima.graph/-
 
 |
 
-##### [io.anima.RuleLoaderVerticle](../io.anima/-rule-loader-verticle/index.md)
-
-
-|
-
 ##### [io.anima.config.RulesConfig](../io.anima.config/-rules-config/index.md)
 
 
@@ -630,7 +576,7 @@ Represents a validation and customization rule for a [Graph](../io.anima.graph/-
 
 |
 
-##### [io.anima.core.transform.SequenceAnswersCapsule](../io.anima.core.transform/-sequence-answers-capsule/index.md)
+##### [io.anima.messages.SequenceAnswersCapsule](../io.anima.messages/-sequence-answers-capsule/index.md)
 
 
 |
@@ -677,19 +623,7 @@ Represents a [Transformation](../io.anima.transform/-transformation/index.md) no
 
 |
 
-##### [io.anima.core.transform.SparqlQuestionCapsule](../io.anima.core.transform/-sparql-question-capsule/index.md)
-
-
-|
-
-##### [io.anima.core.transform.SparqlQuestionMessageTransformation](../io.anima.core.transform/-sparql-question-message-transformation/index.md)
-
-Transforms question messages to SPARQL questions for the transformation system if possible.
-
-
-|
-
-##### [io.anima.core.transform.SparqlQuestionTransformation](../io.anima.core.transform/-sparql-question-transformation/index.md)
+##### [io.anima.messages.SparqlQuestionCapsule](../io.anima.messages/-sparql-question-capsule/index.md)
 
 
 |
@@ -697,14 +631,9 @@ Transforms question messages to SPARQL questions for the transformation system i
 ##### [io.anima.transform.StreamingCapsule](../io.anima.transform/-streaming-capsule/index.md)
 
 
-| (extensions in package io.anima.core.mind.gremlin)
+|
 
-##### [kotlin.String](../io.anima.core.mind.gremlin/kotlin.-string/index.md)
-
-
-| (extensions in package io.anima.core.mind.gremlin)
-
-##### [org.apache.tinkerpop.gremlin.tinkergraph.structure.TinkerElement](../io.anima.core.mind.gremlin/org.apache.tinkerpop.gremlin.tinkergraph.structure.-tinker-element/index.md)
+##### [io.anima.transform.TimeoutException](../io.anima.transform/-timeout-exception.md)
 
 
 |
@@ -801,11 +730,6 @@ The root of a tree of functions
 
 |
 
-##### [io.anima.graph.Triple](../io.anima.graph/-triple/index.md)
-
-
-|
-
 ##### [io.anima.graph.Vertex](../io.anima.graph/-vertex/index.md)
 
 
@@ -826,22 +750,22 @@ The root of a tree of functions
 
 |
 
-##### [io.anima.core.config.WebApiConfig](../io.anima.core.config/-web-api-config/index.md)
+##### [io.anima.config.WebApiConfig](../io.anima.config/-web-api-config/index.md)
 
 
 |
 
-##### [io.anima.core.config.WebConfig](../io.anima.core.config/-web-config/index.md)
+##### [io.anima.config.WebConfig](../io.anima.config/-web-config/index.md)
 
 
 |
 
-##### [io.anima.core.hive.WebVerticle](../io.anima.core.hive/-web-verticle/index.md)
+##### [io.anima.config.WebFrontendConfig](../io.anima.config/-web-frontend-config/index.md)
 
 
 |
 
-##### [io.anima.core.mind.WebVerticle](../io.anima.core.mind/-web-verticle/index.md)
+##### [io.anima.web.WebInput](../io.anima.web/-web-input/index.md)
 
 
 |

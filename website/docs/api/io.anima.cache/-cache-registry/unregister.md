@@ -2,4 +2,4 @@
 
 # unregister
 
-`fun `[`Cache`](../-cache/index.md)`.unregister(): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)
+`@Synchronized fun `[`Cache`](../-cache/index.md)`.unregister(): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)

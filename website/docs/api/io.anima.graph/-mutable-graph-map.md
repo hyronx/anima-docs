@@ -2,4 +2,4 @@
 
 # MutableGraphMap
 
-`typealias MutableGraphMap = `[`MutableMap`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-map/index.html)`<`[`Serializable`](https://docs.oracle.com/javase/6/docs/api/java/io/Serializable.html)`, `[`EdgeToInVertexPairs`](-edge-to-in-vertex-pairs.md)`>`
+`typealias MutableGraphMap = `[`MutableMap`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-map/index.html)`<`[`Vertex`](-vertex/index.md)`, `[`EdgeToInVertexPairs`](-edge-to-in-vertex-pairs.md)`>`

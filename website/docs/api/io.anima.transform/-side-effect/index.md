@@ -6,7 +6,7 @@
 
 Represents a [Transformation](../-transformation/index.md) not producing outputs but only consuming.
 
-Use this transformation type to act upon input data like storing it somewhere without
+Use this transformation type to act upon input transform like storing it somewhere without
 the need to return something.
 
 ### Types
@@ -29,6 +29,12 @@ the need to return something.
 | [getEmptySetTransformation](get-empty-set-transformation.md) | Creates a transformation returning an empty set of type [B](get-empty-set-transformation.md#B).`open fun <B : `[`Immutable`](../-immutable/index.md)`> getEmptySetTransformation(outputType: `[`Class`](https://docs.oracle.com/javase/6/docs/api/java/lang/Class.html)`<B>): `[`Transformation`](../-transformation/index.md)`<A, B>` |
 | [transform](transform.md) | Transforms the input to [NoResult](-no-result.md).`open fun transform(input: A, outputPromise: Promise<NoResult>): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 
+### Companion Object Functions
+
+| Name | Summary |
+|---|---|
+| [invoke](invoke.md) | Builds a transformation tree to execute a set of side effects.`operator fun <A : `[`Immutable`](../-immutable/index.md)`> invoke(inputType: `[`Class`](https://docs.oracle.com/javase/6/docs/api/java/lang/Class.html)`<A>, inputs: `[`Set`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html)`<A>): Future<`[`Set`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html)`<NoResult>>`<br>`operator fun <A : `[`Immutable`](../-immutable/index.md)`> invoke(inputType: `[`Class`](https://docs.oracle.com/javase/6/docs/api/java/lang/Class.html)`<A>, vararg inputs: A): Future<`[`Set`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html)`<NoResult>>`<br>`operator fun <A : `[`Immutable`](../-immutable/index.md)`> invoke(vararg inputs: A): Future<`[`Set`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html)`<NoResult>>` |
+
 ### Extension Functions
 
 | Name | Summary |
@@ -39,5 +45,4 @@ the need to return something.
 
 | Name | Summary |
 |---|---|
-| [GraphStoreWriteTransformation](../../io.anima.core.store/-graph-store-write-transformation/index.md) | Writes an [AnimaGraphCapsule](../-anima-graph-capsule/index.md) to the graph store with the defined [storeFormat](#)`class GraphStoreWriteTransformation : `[`SideEffect`](./index.md)`<`[`AnimaGraphCapsule`](../-anima-graph-capsule/index.md)`>` |
-| [GremlinGraphSink](../../io.anima.core.transform/-gremlin-graph-sink/index.md) | Stores the input in a local Gremlin database.`class GremlinGraphSink : `[`SideEffect`](./index.md)`<`[`ExtendedAnimaGraphCapsule`](../-extended-anima-graph-capsule/index.md)`>` |
+| [BridgeEventConsumer](../../io.anima.web/-bridge-event-consumer.md) | `interface BridgeEventConsumer<A : `[`IncomingEvent`](../../io.anima.web/-incoming-event/index.md)`> : `[`SideEffect`](./index.md)`<A>` |

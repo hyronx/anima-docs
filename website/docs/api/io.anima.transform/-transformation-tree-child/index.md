@@ -22,4 +22,5 @@
 
 | Name | Summary |
 |---|---|
+| [freeze](freeze.md) | Recursively freezes the whole tree`fun freeze(): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 | [handler](handler.md) | Calls its transform elements and the next element in the chain`fun handler(input: `[`Set`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html)`<C>): Future<`[`Set`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html)`<*>>` |

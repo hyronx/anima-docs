@@ -2,7 +2,7 @@
 
 # RdfXmlInput
 
-`data class RdfXmlInput : `[`RdfInput`](../-rdf-input/index.md)
+`data class RdfXmlInput : `[`RdfInput`](../-rdf-input.md)
 
 ### Constructors
 

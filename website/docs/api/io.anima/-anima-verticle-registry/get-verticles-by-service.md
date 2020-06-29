@@ -2,5 +2,5 @@
 
 # getVerticlesByService
 
-`fun getVerticlesByService(serviceType: `[`ServiceType`](../-service-type/index.md)`): `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`AnimaVerticle`](../-anima-verticle/index.md)`>?`
+`@Synchronized fun getVerticlesByService(serviceType: `[`ServiceType`](../-service-type/index.md)`): `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`AnimaVerticle`](../-anima-verticle/index.md)`>?`
 `fun getVerticlesByService(serviceTypeName: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`AnimaVerticle`](../-anima-verticle/index.md)`>?`

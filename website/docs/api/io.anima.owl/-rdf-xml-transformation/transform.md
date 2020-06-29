@@ -8,5 +8,5 @@ Transforms the input as [Lang.RDFXML](#) using [transform](./transform.md).
 
 **See Also**
 
-[Transformation.transform](../../io.anima.transform/-transformation/transform.md)
+[Transformation.invoke](../../io.anima.transform/-transformation/invoke.md)
 

@@ -2,5 +2,5 @@
 
 # create
 
-`fun <T> create(data: T, outEdges: `[`Set`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html)`<`[`Edge`](../-edge/index.md)`<*, *>>): `[`Vertex`](index.md)`<T> where T : `[`Comparable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-comparable/index.html)`<T>, T : `[`Serializable`](https://docs.oracle.com/javase/6/docs/api/java/io/Serializable.html)
-`fun <T> create(data: T, vararg outEdges: `[`Edge`](../-edge/index.md)`<*, *>): `[`Vertex`](index.md)`<T> where T : `[`Comparable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-comparable/index.html)`<T>, T : `[`Serializable`](https://docs.oracle.com/javase/6/docs/api/java/io/Serializable.html)
+`fun create(layer: `[`Layer`](../-layer/index.md)`, value: `[`Serializable`](https://docs.oracle.com/javase/6/docs/api/java/io/Serializable.html)`, javaType: `[`Class`](https://docs.oracle.com/javase/6/docs/api/java/lang/Class.html)`<*>): `[`Vertex`](index.md)
+`fun <reified T : `[`Serializable`](https://docs.oracle.com/javase/6/docs/api/java/io/Serializable.html)`> create(layer: `[`Layer`](../-layer/index.md)`, value: T): `[`Vertex`](index.md)

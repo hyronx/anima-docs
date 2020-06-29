@@ -11,5 +11,5 @@ Calls its transform elements and the next element in the chain
 `input` - The input set
 
 **Return**
-A future containing the results of all this functionals
+A future containing the results of all this transformations
 

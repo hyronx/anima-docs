@@ -32,6 +32,7 @@ You should be able to confirm that with the following piece of code:
 | [CoreAddress](-core-address/index.md) | `abstract class CoreAddress : `[`Address`](./index.md) |
 | [ExportRequested](-export-requested.md) | `object ExportRequested : CoreAddress` |
 | [ExportResult](-export-result.md) | `object ExportResult : CoreAddress` |
+| [HiveMessageSend](-hive-message-send.md) | `object HiveMessageSend : CoreAddress` |
 | [HiveRegistered](-hive-registered.md) | `object HiveRegistered : CoreAddress` |
 | [HiveRequested](-hive-requested.md) | `object HiveRequested : CoreAddress` |
 | [ImportStatus](-import-status.md) | `object ImportStatus : CoreAddress` |

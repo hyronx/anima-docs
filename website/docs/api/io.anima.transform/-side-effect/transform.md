@@ -11,5 +11,5 @@ To ease the implementation, override [consume](consume.md).
 
 **See Also**
 
-[Transformation.transform](../-transformation/transform.md)
+[Transformation.invoke](../-transformation/invoke.md)
 

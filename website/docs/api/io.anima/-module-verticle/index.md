@@ -15,7 +15,6 @@
 | Name | Summary |
 |---|---|
 | [childVerticles](child-verticles.md) | `abstract val childVerticles: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`AnimaVerticle`](../-anima-verticle/index.md)`>` |
-| [deploymentOptions](deployment-options.md) | The default deployment options to be used for this verticle`open val deploymentOptions: DeploymentOptions` |
 | [providedServices](provided-services.md) | The provided services by this verticle`open val providedServices: `[`Set`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html)`<`[`ServiceType`](../-service-type/index.md)`>` |
 | [requiredServices](required-services.md) | The required services by this verticle which have to be available before startup`open val requiredServices: `[`Set`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html)`<`[`ServiceType`](../-service-type/index.md)`>` |
 
@@ -36,5 +35,4 @@
 
 | Name | Summary |
 |---|---|
-| [HiveVerticle](../../io.anima.core.hive/-hive-verticle/index.md) | `class HiveVerticle : `[`ModuleVerticle`](./index.md) |
-| [MindVerticle](../../io.anima.core.mind/-mind-verticle/index.md) | `class MindVerticle : `[`ModuleVerticle`](./index.md) |
+| [RedisVerticle](../-redis-verticle/index.md) | `class RedisVerticle : `[`ModuleVerticle`](./index.md) |

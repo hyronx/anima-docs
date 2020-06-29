@@ -34,7 +34,5 @@
 
 | Name | Summary |
 |---|---|
-| [AnimaGraphTimestampExtender](../../io.anima.core.transform/-anima-graph-timestamp-extender/index.md) | `class AnimaGraphTimestampExtender : `[`TransformationVerticle`](./index.md)`<`[`AnimaGraphCapsule`](../-anima-graph-capsule/index.md)`, `[`ExtendedAnimaGraphCapsule`](../-extended-anima-graph-capsule/index.md)`>` |
 | [DrawIoGraphSourceVerticle](../-draw-io-graph-source-verticle/index.md) | `class DrawIoGraphSourceVerticle : `[`TransformationVerticle`](./index.md)`<`[`DrawIoInput`](../-draw-io-input/index.md)`, `[`DrawIoGraphCapsule`](../-draw-io-graph-capsule/index.md)`>` |
 | [DrawIoGraphUnifierVerticle](../-draw-io-graph-unifier-verticle/index.md) | `class DrawIoGraphUnifierVerticle : `[`TransformationVerticle`](./index.md)`<`[`DrawIoGraphCapsule`](../-draw-io-graph-capsule/index.md)`, `[`AnimaGraphCapsule`](../-anima-graph-capsule/index.md)`>` |
-| [RuleLoaderVerticle](../../io.anima/-rule-loader-verticle/index.md) | `class RuleLoaderVerticle : `[`TransformationVerticle`](./index.md)`<`[`AnimaGraphCapsule`](../-anima-graph-capsule/index.md)`, `[`ExtendedAnimaGraphCapsule`](../-extended-anima-graph-capsule/index.md)`>` |

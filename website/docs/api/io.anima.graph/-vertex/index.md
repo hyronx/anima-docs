@@ -2,17 +2,30 @@
 
 # Vertex
 
-`interface Vertex<T> where T : `[`Comparable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-comparable/index.html)`<T>, T : `[`Serializable`](https://docs.oracle.com/javase/6/docs/api/java/io/Serializable.html)
+`class Vertex : `[`Element`](../-element/index.md)
 
 ### Properties
 
 | Name | Summary |
 |---|---|
-| [data](data.md) | `abstract val data: T` |
-| [outEdges](out-edges.md) | `abstract val outEdges: `[`Set`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html)`<`[`Edge`](../-edge/index.md)`<*, *>>` |
+| [javaType](java-type.md) | `val javaType: `[`Class`](https://docs.oracle.com/javase/6/docs/api/java/lang/Class.html)`<*>` |
+| [layer](layer.md) | `val layer: `[`Layer`](../-layer/index.md) |
+| [value](value.md) | `val value: `[`Serializable`](https://docs.oracle.com/javase/6/docs/api/java/io/Serializable.html) |
+
+### Functions
+
+| Name | Summary |
+|---|---|
+| [toJsonObject](to-json-object.md) | Returns a JSON representation`fun toJsonObject(): JsonObject` |
+
+### Companion Object Properties
+
+| Name | Summary |
+|---|---|
+| [TYPE](-t-y-p-e.md) | `const val TYPE: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 
 ### Companion Object Functions
 
 | Name | Summary |
 |---|---|
-| [create](create.md) | `fun <T> create(data: T, outEdges: `[`Set`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html)`<`[`Edge`](../-edge/index.md)`<*, *>>): `[`Vertex`](./index.md)`<T> where T : `[`Comparable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-comparable/index.html)`<T>, T : `[`Serializable`](https://docs.oracle.com/javase/6/docs/api/java/io/Serializable.html)<br>`fun <T> create(data: T, vararg outEdges: `[`Edge`](../-edge/index.md)`<*, *>): `[`Vertex`](./index.md)`<T> where T : `[`Comparable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-comparable/index.html)`<T>, T : `[`Serializable`](https://docs.oracle.com/javase/6/docs/api/java/io/Serializable.html) |
+| [create](create.md) | `fun create(layer: `[`Layer`](../-layer/index.md)`, value: `[`Serializable`](https://docs.oracle.com/javase/6/docs/api/java/io/Serializable.html)`, javaType: `[`Class`](https://docs.oracle.com/javase/6/docs/api/java/lang/Class.html)`<*>): `[`Vertex`](./index.md)<br>`fun <T : `[`Serializable`](https://docs.oracle.com/javase/6/docs/api/java/io/Serializable.html)`> create(layer: `[`Layer`](../-layer/index.md)`, value: T): `[`Vertex`](./index.md) |

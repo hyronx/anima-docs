@@ -2,7 +2,7 @@
 
 # DrawIoInput
 
-`data class DrawIoInput : `[`Immutable`](../-immutable/index.md)
+`data class DrawIoInput : `[`WebInput`](../../io.anima.web/-web-input/index.md)
 
 ### Constructors
 

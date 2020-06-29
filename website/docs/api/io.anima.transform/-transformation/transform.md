@@ -7,6 +7,8 @@
 Transforms the input to some output.
 
 This method must be implemented as a pure function.
+This method only gets [DEFAULT_TIMEOUT](-d-e-f-a-u-l-t_-t-i-m-e-o-u-t.md) milliseconds for completion.
+If you need more, you can disable the timeout by overriding [enableTimeout](enable-timeout.md).
 
 ### Parameters
 
@@ -22,6 +24,8 @@ Unit because the result is returned by [outputPromise](transform.md#io.anima.tra
 Transforms the input to some output.
 
 Implement the [transform](./transform.md) method.
+The [transform](./transform.md) method only gets [DEFAULT_TIMEOUT](-d-e-f-a-u-l-t_-t-i-m-e-o-u-t.md) milliseconds for completion.
+If you need more, you can disable the timeout by overriding [enableTimeout](enable-timeout.md).
 
 ### Parameters
 
@@ -29,72 +33,4 @@ Implement the [transform](./transform.md) method.
 
 **Return**
 A future returning the output or an error
-
-`fun <A : `[`Immutable`](../-immutable/index.md)`, B : `[`Immutable`](../-immutable/index.md)`> transform(inputType: `[`Class`](https://docs.oracle.com/javase/6/docs/api/java/lang/Class.html)`<A>, outputType: `[`Class`](https://docs.oracle.com/javase/6/docs/api/java/lang/Class.html)`<B>, inputs: `[`Set`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html)`<A>): Future<`[`Set`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html)`<B>>`
-
-Builds a transformation tree to transform the inputs to a set of outputs.
-
-This method is the gate to all registered transformations. Out of them
-it builds a transformation tree which is capable of transform some input to
-the expected output based on their types. The output of all leaves of the tree
-is merged into one set. How to work the resulting set is up to you.
-
-### Parameters
-
-`inputType` - The input type
-
-`outputType` - The output type
-
-`inputs` - Set of one or more inputs
-
-### Exceptions
-
-`NoPathsFoundException` - Thrown if there is no way with current transformations to transform [A](transform.md#A) to [B](transform.md#B).
-
-**Return**
-A future containing the set of results
-
-`fun <A : `[`Immutable`](../-immutable/index.md)`, B : `[`Immutable`](../-immutable/index.md)`> transform(inputType: `[`Class`](https://docs.oracle.com/javase/6/docs/api/java/lang/Class.html)`<A>, outputType: `[`Class`](https://docs.oracle.com/javase/6/docs/api/java/lang/Class.html)`<B>, vararg inputs: A): Future<`[`Set`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html)`<B>>`
-
-Builds a transformation tree to transform the inputs to a set of outputs.
-
-This method is the gate to all registered transformations. Out of them
-it builds a transformation tree which is capable of transform some input to
-the expected output based on their types. The output of all leaves of the tree
-is merged into one set. How to work the resulting set is up to you.
-
-### Parameters
-
-`inputType` - The input type
-
-`outputType` - The output type
-
-`inputs` - One or more inputs which represent an input set
-
-### Exceptions
-
-`NoPathsFoundException` - Thrown if there is no way with current transformations to transform [A](transform.md#A) to [B](transform.md#B).
-
-**Return**
-A future containing the set of results
-
-`fun <reified A : `[`Immutable`](../-immutable/index.md)`, reified B : `[`Immutable`](../-immutable/index.md)`> transform(vararg inputs: A): Future<`[`Set`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html)`<B>>`
-
-Builds a transformation tree to transform the inputs to a set of outputs.
-
-This method is the gate to all registered transformations. Out of them
-it builds a transformation tree which is capable of transform some input to
-the expected output based on their types. The output of all leaves of the tree
-is merged into one set. How to work the resulting set is up to you.
-
-### Parameters
-
-`inputs` - One or more inputs which represent an input set
-
-### Exceptions
-
-`NoPathsFoundException` - Thrown if there is no way with current transformations to transform [A](transform.md#A) to [B](transform.md#B).
-
-**Return**
-A future containing the set of results
 

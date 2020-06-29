@@ -2,7 +2,7 @@
 
 # RdfTurtleInput
 
-`data class RdfTurtleInput : `[`RdfInput`](../-rdf-input/index.md)
+`data class RdfTurtleInput : `[`RdfInput`](../-rdf-input.md)
 
 ### Constructors
 
